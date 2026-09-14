@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+   base: '/ledora-beauty-shop/', // <-- فقط این خط اضافه شد
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
